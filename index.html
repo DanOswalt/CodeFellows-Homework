@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang 'en'>
+<head>
+	<title>Bright Idea</title>
+	<meta charset='utf-8' />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type='text/css' href='form.css'>
+</head>
+<body>	
+	<div id='form-container'>
+		<h1>Got a bright idea, huh?</h1>
+		<form action='#' method='get'>
+			<label><b>Just what do you call your little idea?&nbsp;&nbsp;</b>
+				<input type='text' name='title'>
+			</label>
+			<br/>
+			<br/>
+			<label><b>Who do you think you are?</b>
+				<br/>
+				<br/>
+				<input type='radio' name='type' value='big-shot' checked='checked'>Mr. Big Shot
+				<input type='radio' name='type' value='know-it-all'>Ms. Know-it-all
+				<input type='radio' name='type' value='whippersnapper'>Lil Whippersnapper
+			</label>
+			<br/>
+			<br/>
+			<label><b>What makes you think I should care?</b>
+				<br/>
+				<br/>
+				<input type='checkbox' name='justification' value="own-good" checked='checked'>It's for your own good.
+				<input type='checkbox' name='justification' value="take-leave">Take it or leave it.
+				<input type='checkbox' name='justification' value="because">Because I said so.
+			</label>
+			<br/>
+			<br/>
+			<label><b>Please select your level of expertise in this area:&nbsp;&nbsp;</b>
+				<select name='expertise'>
+					<option value='lots'>Lots</option>
+					<option value='some'>Some</option>
+					<option value='none'>None</option>
+				</select>
+			</label>
+			<br/>
+			<br/>
+			<label><b>Okay, so what do you want?</b>
+				<br/>
+				<br/>
+				<textarea id='comment' name='comment' cols='40' rows='5'></textarea>
+				<p id='count-msg'>Characters: 0, Words: 0</p>
+			</label>
+			<br/>
+			<input type='submit' name='submit' value='SEND'>
+		</form>	
+	</div>
+	<script src='count.js'></script>
+</body>
+</html>

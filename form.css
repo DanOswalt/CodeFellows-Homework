@@ -1,0 +1,56 @@
+body {
+	background: url('blacktile.jpg');
+	font-family: Ubuntu, sans-serif;
+	text-align: center;	
+}
+
+h1 {
+	display: inline-block;
+	padding: 5px;
+}
+
+#form-container {
+	margin: 20px auto;
+	width: 550px;
+	padding: 10px;
+	border-radius: 10px;
+	border: black 5px solid;
+	background-color: #56B4AA;
+}
+
+#count-msg {
+	font-family: Courier;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+input[type='submit'] {
+	background-color: #1d197c;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	border: black 2px solid;
+}
+
+input[type='text'] {
+	border: black 2px solid;
+	height: 16px;
+}
+
+textarea {
+	border: black 2px solid;	
+}
+
+select {
+	background: white;
+	border: black 2px solid;
+}
+
+b {
+	color: #1d197c;
+}
+
+
+
+
